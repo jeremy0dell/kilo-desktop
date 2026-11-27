@@ -88,7 +88,7 @@ export function FilesTree({
 		search: false,
 		unsafeCSS: `
 			[data-type="item"] {
-				--truncate-marker-background-color: var(--muted, var(--background, var(--trees-theme-sidebar-bg)));
+				--truncate-marker-background-color: var(--pane-surface);
 				--truncate-marker-fade-in-duration: 0s;
 			}
 
