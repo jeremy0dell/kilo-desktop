@@ -25,6 +25,7 @@ const FILE_EDITOR_SURFACE_CSS = `
 		background-color: transparent !important;
 		color: var(--foreground) !important;
 	}
+	[data-search-panel] { --diffs-bg: var(--pane-surface); }
 `;
 
 function createEditor<EType extends EditorType>(
